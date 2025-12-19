@@ -10,14 +10,20 @@ This script monitors real-time US Power Grid telemetry via the [GridWatch API](h
 * **Redundancy:** Acts as a cloud-based backup watchdog if your local facility sensors fail.
 
 ## Supported Regions
+### Real-Time ISOs (5-min updates)
 * **PJM** (Mid-Atlantic)
 * **ERCOT** (Texas)
 * **MISO** (Midwest)
 * **SPP** (Southwest)
 * **NYISO** (New York)
 * **ISO-NE** (New England)
+
+### Regional Utilities (Hourly / EIA Data)
 * **CAISO** (California)
-* *Plus 15+ Regional Utilities (Duke, TVA, Southern Company, etc.)*
+* **Duke Energy** (Carolinas/Florida)
+* **TVA** (Tennessee Valley)
+* **Southern Company**
+* *Plus 12+ others (FPL, NV Energy, PacifiCorp, etc.)*
 
 ## Quick Start
 
