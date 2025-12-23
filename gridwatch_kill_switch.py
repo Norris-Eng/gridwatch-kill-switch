@@ -28,7 +28,7 @@ def stop_mining_rigs():
     print("   [ACTION] 🛑 SENDING SHUTDOWN SIGNAL TO RIGS...")
 
 def check_grid_status():
-    url = "https://gridwatch-us-telemetry.p.rapidapi.com/curtailment"
+    url = "https://gridwatch-us-telemetry.p.rapidapi.com/api/curtailment"
 
     querystring = {
         "region": REGION,
